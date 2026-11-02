@@ -31,7 +31,7 @@ Claude에게 세무 질문을 하면 **걸리는 세목부터 판정하고, 법�
 - claude.ai·Claude 데스크톱 앱에서는 **커넥터**로, Claude Code에서는 **플러그인**으로 붙입니다. 이 스킬의 **필수** 준비물입니다.
 
 **3. lawkit MCP (선택, Claude Code 전용)**
-- korean-law MCP를 보완하는 도구입니다([GitHub](https://github.com/mastercpakim-ui/lawkit)).
+- korean-law MCP를 보완하는 도구입니다([GitHub](https://github.com/nuttycpa/lawkit)).
 - 국세청 예규를 제목뿐 아니라 **본문까지** 검색해 질의 사실관계와 회신을 읽어 옵니다. 또 법·시행령·시행규칙을 각각 키워드로 훑어, 조문 번호를 몰랐던 가산세·서식 의무까지 찾습니다.
 - 내 PC에서 도는 도구라 **Claude Code(또는 데스크톱 앱 Code 탭)에서만** 붙일 수 있습니다. Python 3.10 이상이 필요하고, 인증키는 korean-law 설정의 키를 그대로 씁니다.
 
@@ -75,7 +75,7 @@ https://mcp.gomdori.app/law?oc=honggildong
 
 아래 링크를 누르면 최신판 `tax-review-pro.zip`이 바로 받아집니다.
 
-**[tax-review-pro.zip 받기](https://github.com/mastercpakim-ui/tax-review-pro/releases/latest/download/tax-review-pro.zip)**
+**[tax-review-pro.zip 받기](https://github.com/nuttycpa/tax-review-pro/releases/latest/download/tax-review-pro.zip)**
 
 > **주의**: 이 페이지 위쪽의 초록색 **Code → Download ZIP** 버튼으로 받은 파일은 폴더 구조가 달라 스킬로 올라가지 않습니다. 반드시 위 링크로 받으세요.
 
@@ -117,13 +117,13 @@ https://mcp.gomdori.app/law?oc=honggildong
 2. Claude Code(또는 데스크톱 앱 Code 탭의 로컬 세션)에 아래 한 줄을 붙여 넣습니다. 설치는 Claude가 이 README의 「Claude가 할 일」대로 처리합니다.
 
 ```
-https://github.com/mastercpakim-ui/tax-review-pro 설치해줘
+https://github.com/nuttycpa/tax-review-pro 설치해줘
 ```
 
 3. (권장) 국세청 예규를 본문까지 검색하려면 lawkit도 붙입니다. Python 3.10 이상이 필요합니다.
 
 ```
-https://github.com/mastercpakim-ui/lawkit 설치해줘
+https://github.com/nuttycpa/lawkit 설치해줘
 ```
 
 4. Claude Code를 완전히 종료했다가 다시 켜고, `/tax-review-pro`로 부르거나 세무 질문을 하면 됩니다.
